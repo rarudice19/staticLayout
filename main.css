@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("./assets/US-en-20190722-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: auto;
+    background-color: black;
+    overflow-x: hidden;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+a, a:link, a:visited {
+  text-decoration: none!important;
+}
+
+#logo {
+  position: absolute;
+  vertical-align: middle;
+  bottom: 525px;
+  left: 0px;
+  transform: scale(0.13, 0.13);
+  z-index: 0;
+}
+
+#signIn {
+
+  background-color: #e50914;
+  line-height: normal;
+  margin: 18px 3% 0;
+  padding: 7px 17px;
+  font-weight: 400;
+  border-radius: 3px;
+  font-size: 16px;
+  float: right;
+  
+
+}
+
+#signInText{
+  color: #fff;
+  text-decoration: none;
+}
+
+.middleText {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  top: 200px;
+  left: 70px;
+  color : white;
+  z-index: 1;
+  font-size: 2.5em;
+}
+
+#middleText2 {
+  position: relative;
+  text-align: center;
+  top: 175px;
+  left: -30px;
+  font-size : 1.9em;
+  letter-spacing: .2px;
+  color: white;
+}
+
+.button {
+  position: absolute;
+  top: 450px;
+  left: 670px;
+  margin: 24px 0;
+  padding: 24px 36px 24px 48px;
+
+}
+
+#buttonText{
+  color: white;
+  background-color: #e50914;
+  text-decoration: none;
+  padding: 1em 1.5em 1em 1.5em;
+  font-size: 24px;
+  letter-spacing: 1.9px;
+
+}
+
+.prior {
+  position: relative;
+  text-align: center;
+  top: 300px;
+  left: -30px;
+  font-size : 1em;
+  letter-spacing: .2px;
+  color: white;
+}
+
+#restart{
+  color: white;
+}
+
+.control {
+  background-color: black;
+  position: absolute;
+  width: 100vw;
+  height: 110vh;
+  z-index: 0;
+  top: 900px;
+}
+
+
+.watchShows {
+  position: relative;
+  top: 800px;
+  left: 300px;
+  color: white;
+  font-size: 26px;
+  
+}
+
+.button2 {
+  position: absolute;
+  top: 1090px;
+  left: 1100px;
+  margin: 18px 3% 0;
+  padding: 24px 36px 24px 48px;
+
+}
+
+#buttonText2 {
+ color: white;
+ background-color: #e50914;
+ text-decoration: none;
+ padding: 18px 20px;
+ font-size: 14px; 
+}
+
+.why {
+  position: relative;
+  text-align: center;
+  top: 600px;
+  left: 350px;
+  color: #999;
+  font-size: 16px;
+ 
+}
+
+.why2 {
+  position: relative;
+  text-align: center;
+  top: 600px;
+  left: 650px;
+  color: white;
+  font-size: 16px;
+}
+
+.why3 {
+  position: relative;
+  text-align: center;
+  top: 600px;
+  left: 950px;
+  color: #999;
+  font-size: 16px;
+}
+
+.tv { 
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 1300px;
+  left: 340px;
+}
+
+.tv2 { 
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 1300px;
+  left: 720px;
+}
+
+.tv3 { 
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 1300px;
+  left: 1140px;
+}
+
+
+.subTitle {
+  color: #fff;
+  position: relative;
+  text-align: center;
+  top: 1100px;
+  left: -400px;
+  font-size: 18.72px;
+  font-weight: bold;
+}
+
+.subTitle2 {
+  color: #fff;
+  position: relative;
+  text-align: center;
+  top: 970px;
+  left: 0px;
+  font-size: 18.72px;
+  font-weight: bold;
+}
+
+.subTitle3 {
+  color: #fff;
+  position: relative;
+  text-align: center;
+  top: 855px;
+  left: 400px;
+  font-size: 18.72px;
+  font-weight: bold;
+}
+
+.subText {
+  position: relative;
+  text-align: center;
+  color: #999;
+  font-size: 16px;
+  top: 1060px;
+  left: -400px;
+
+
+}
+
+.subText2 {
+  position: relative;
+  text-align: center;
+  color: #999;
+  font-size: 16px;
+  top: 930px;
+  left: 0px;
+
+}
+
+.subText3 {
+  position: relative;
+  text-align: center;
+  color: #999;
+  font-size: 16px;
+  top: 815px;
+  left: 400px;
+
+}
+
+#question {
+  color: #999;
+  position: absolute;
+  left: 445px;
+  top: 1700px;
+}
+
+.linkHolder {
+  position: absolute;
+  top: 1750px;
+  left: 305px;
+  
+}
+
+.links {  display: flex;
+  justify-content: center; 
+}
+
+ul {
+  list-style-type: none;
+ 
+}
+
+li, li:link, li,:visited{
+  font-size: 13px;
+  padding: 20px 0 0 100px;
+  color: #999;
+}
